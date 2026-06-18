@@ -47,6 +47,19 @@
       </div>
     </section>
   `).join('');
+})();              <span class="card-date">${entry.date || 'Undated'}</span>
+            </div>
+            <div class="card-row">${(entry.tech || []).map(chip).join('')}</div>
+            <div class="card-row">${(entry.tags || []).map(chip).join('')}</div>
+            <div class="card-links">
+              ${entry.url ? `<a class="link" href="${entry.url}" target="_blank" rel="noopener noreferrer">Open project</a>` : ''}
+              ${safeLinks(entry.links)}
+            </div>
+          </article>
+        `).join('')}
+      </div>
+    </section>
+  `).join('');
 })();      )
       .join('');
   }
