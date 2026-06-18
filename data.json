@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Review Sites",
+    "slug": "review-sites",
+    "entries": [
+      {
+        "title": "BeautyUser.com",
+        "year": "2009",
+        "url": "",
+        "tech": ["PHP", "MySQL", "CSS"],
+        "tags": ["Display", "Search", "Affiliate"],
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Applications",
+    "slug": "applications",
+    "entries": [
+      {
+        "title": "Jmfcool.js",
+        "year": "Present",
+        "url": "https://github.com/jmfcool/jmfcool.js",
+        "tech": ["JS", "Views", "Models"],
+        "tags": ["Framework"],
+        "links": [{ "label": "Website", "href": "https://jmfcooljs.org" }]
+      }
+    ]
+  }
+]
