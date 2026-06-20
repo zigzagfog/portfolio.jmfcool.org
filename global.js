@@ -1,67 +1,50 @@
-(async function () {
-  const root = document.documentElement;
-  const toggle = document.querySelector('[data-theme-toggle]');
-  let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  root.setAttribute('data-theme', theme);
+async function initPortfolio() {
+  const root = document.getElementById('sectionsRoot');
 
-  const moon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
-  const sun = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>';
+  try {
+    root.textContent = 'Loading...';
 
-  const sync = () => {
-    if (!toggle) return;
-    toggle.innerHTML = theme === 'dark' ? moon : sun;
-  };
+    const response = await fetch('./data.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
-  sync();
+    const sections = await response.json();
+    root.innerHTML = '';
 
-  toggle?.addEventListener('click', () => {
-    theme = theme === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', theme);
-    sync();
-  });
+    sections.forEach((section) => {
+      const sectionEl = document.createElement('section');
+      sectionEl.className = 'section';
+      sectionEl.id = section.slug;
 
-  const sections = await fetch('./data.json').then((r) => r.json());
-  const rootEl = document.getElementById('sectionsRoot');
+      const heading = document.createElement('h2');
+      heading.textContent = section.name;
 
-  const chip = (text) => `<span class="chip">${text}</span>`;
-  const safeLinks = (links = []) =>
-    links
-      .map(
-        (link) =>
-          `<a class="link" href="${link.href}" target="_blank" rel="noopener noreferrer">${link.label}</a>`
-      )
-      .join('');
+      const count = document.createElement('p');
+      count.textContent = `${section.entries.length} items`;
 
-  rootEl.innerHTML = sections
-    .map(
-      (section) => `
-        <section class="section" id="${section.slug}">
-          <div class="section-head">
-            <h2 class="section-title">${section.name}</h2>
-            <span class="section-count">${section.entries.length} items</span>
-          </div>
-          <div class="cards">
-            ${section.entries
-              .map(
-                (entry) => `
-                  <article class="card">
-                    <div class="card-top">
-                      <h3 class="card-title">${entry.title}</h3>
-                      <span class="card-date">${entry.date || 'Undated'}</span>
-                    </div>
-                    <div class="card-row">${(entry.tech || []).map(chip).join('')}</div>
-                    <div class="card-row">${(entry.tags || []).map(chip).join('')}</div>
-                    <div class="card-links">
-                      ${entry.url ? `<a class="link" href="${entry.url}" target="_blank" rel="noopener noreferrer">Open project</a>` : ''}
-                      ${safeLinks(entry.links)}
-                    </div>
-                  </article>
-                `
-              )
-              .join('')}
-          </div>
-        </section>
-      `
-    )
-    .join('');
-})();
+      const cards = document.createElement('div');
+      cards.className = 'cards';
+
+      section.entries.forEach((entry) => {
+        const card = document.createElement('article');
+        card.className = 'card';
+
+        const title = document.createElement('h3');
+        title.textContent = entry.title;
+
+        const date = document.createElement('p');
+        date.textContent = entry.date || 'Undated';
+
+        card.append(title, date);
+        cards.appendChild(card);
+      });
+
+      sectionEl.append(heading, count, cards);
+      root.appendChild(sectionEl);
+    });
+  } catch (error) {
+    root.textContent = 'Could not load portfolio data.';
+    console.error(error);
+  }
+}
+
+initPortfolio();
