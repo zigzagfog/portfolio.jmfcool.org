@@ -48,3 +48,7 @@ async function initPortfolio() {
 }
 
 initPortfolio();
+
+document.addEventListener('DOMContentLoaded', () => {
+  initPortfolio();
+});
