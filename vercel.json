@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "portfolio-jmfcool-org.vercel.app"
+        }
+      ],
+      "destination": "https://portfolio.jmfcool.org/$1",
+      "permanent": true
+    }
+  ]
+}
