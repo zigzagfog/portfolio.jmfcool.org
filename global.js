@@ -22,7 +22,6 @@
     });
   }
 
-  const sections = await fetch('./data.json').then((response) => response.json());
   const rootEl = document.getElementById('sectionsRoot');
 
   function chip(text) {
@@ -38,36 +37,66 @@
       .join('');
   }
 
-  rootEl.innerHTML = sections
-    .map(
-      (section) => `
-        <section class="section" id="${section.slug}">
+  try {
+    const response = await fetch('./data.json');
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} loading data.json`);
+    }
+
+    const contentType = response.headers.get('content-type') || '';
+    if (!contentType.includes('application/json')) {
+      const text = await response.text();
+      throw new Error(`Expected JSON but got: ${text.slice(0, 120)}`);
+    }
+
+    const sections = await response.json();
+
+    rootEl.innerHTML = sections
+      .map(
+        (section) => `
+          <section class="section" id="${section.slug}">
+            <div class="section-head">
+              <h2 class="section-title">${section.name}</h2>
+              <span class="section-count">${section.entries.length} items</span>
+            </div>
+            <div class="cards">
+              ${section.entries
+                .map(
+                  (entry) => `
+                    <article class="card">
+                      <div class="card-top">
+                        <h3 class="card-title">${entry.title}</h3>
+                        <span class="card-date">${entry.date || 'Undated'}</span>
+                      </div>
+                      <div class="card-row">${(entry.tech || []).map(chip).join('')}</div>
+                      <div class="card-row">${(entry.tags || []).map(chip).join('')}</div>
+                      <div class="card-links">
+                        ${entry.url ? `<a class="link" href="${entry.url}" target="_blank" rel="noopener noreferrer">Open project</a>` : ''}
+                        ${safeLinks(entry.links)}
+                      </div>
+                    </article>
+                  `
+                )
+                .join('')}
+            </div>
+          </section>
+        `
+      )
+      .join('');
+  } catch (error) {
+    console.error(error);
+    if (rootEl) {
+      rootEl.innerHTML = `
+        <section class="section">
           <div class="section-head">
-            <h2 class="section-title">${section.name}</h2>
-            <span class="section-count">${section.entries.length} items</span>
+            <h2 class="section-title">Portfolio unavailable</h2>
           </div>
-          <div class="cards">
-            ${section.entries
-              .map(
-                (entry) => `
-                  <article class="card">
-                    <div class="card-top">
-                      <h3 class="card-title">${entry.title}</h3>
-                      <span class="card-date">${entry.date || 'Undated'}</span>
-                    </div>
-                    <div class="card-row">${(entry.tech || []).map(chip).join('')}</div>
-                    <div class="card-row">${(entry.tags || []).map(chip).join('')}</div>
-                    <div class="card-links">
-                      ${entry.url ? `<a class="link" href="${entry.url}" target="_blank" rel="noopener noreferrer">Open project</a>` : ''}
-                      ${safeLinks(entry.links)}
-                    </div>
-                  </article>
-                `
-              )
-              .join('')}
+          <div class="card">
+            <p class="intro-copy">Could not load <code>data.json</code>. Check that the file exists in the same folder as <code>index.html</code> and returns JSON.</p>
           </div>
         </section>
-      `
-    )
-    .join('');
+      `;
+    }
+  }
 })();
