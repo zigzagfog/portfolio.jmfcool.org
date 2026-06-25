@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-jmfcool-org",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p .",
+    "start": "echo static site"
+  }
+}
