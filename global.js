@@ -1,7 +1,7 @@
 (async function () {
   const root = document.documentElement;
   const toggle = document.querySelector('[data-theme-toggle]');
-  let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  let theme = 'dark';
   root.setAttribute('data-theme', theme);
 
   const moon =
@@ -26,21 +26,14 @@
     syncTheme();
   });
 
-  // Load archive data
   const res = await fetch('./data.json');
   const sections = await res.json();
 
-  // Stats
   document.getElementById('stat-categories').textContent = String(sections.length);
   document.getElementById('stat-projects').textContent = String(
     sections.reduce((sum, section) => sum + section.entries.length, 0)
   );
 
-  const allEntries = sections.flatMap((section) =>
-    section.entries.map((entry) => ({ ...entry, category: section.name, slug: section.slug }))
-  );
-
-  // Hero preview: first three categories from archive
   const heroPreview = document.getElementById('heroPreview');
   sections.slice(0, 3).forEach((section) => {
     heroPreview.insertAdjacentHTML(
@@ -86,11 +79,7 @@
           .join('')}
       </div>
       <div class="project-card__actions">
-        ${
-          project.url
-            ? createAction('Open project', project.url, true)
-            : ''
-        }
+        ${project.url ? createAction('Open project', project.url, true) : ''}
         ${(project.links || [])
           .slice(0, 2)
           .map((link) => createAction(link.label, link.href))
@@ -99,7 +88,6 @@
     </article>
   `;
 
-  // Filter pills
   const filterPills = document.getElementById('filterPills');
   filterPills.innerHTML = sections
     .map(
@@ -108,7 +96,6 @@
     )
     .join('');
 
-  // Sections
   const rootSections = document.getElementById('sectionsRoot');
   rootSections.innerHTML = sections
     .map(
