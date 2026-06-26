@@ -11,6 +11,19 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="./style.css" />
+<script>
+  (function () {
+    const btn = document.querySelector('[data-back-to-top]');
+    if (!btn) return;
+
+    btn.addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  })();
+</script>  
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -126,11 +139,9 @@
             <a href="https://resume.jmfcool.org" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
               Open resume
             </a>
-            <p class="back-to-top">
-              <a href="#top" class="btn btn--ghost" aria-label="Back to top">
-                Back to top
-              </a>
-            </p>
+            <button class="btn btn--ghost back-to-top" type="button" data-back-to-top>
+              Back to top
+            </button>
           </div>
         </article>
       </div>
