@@ -1028,6 +1028,1000 @@
         "title": "Stopwatch",
         "date": "Present",
         "url": "https://projects.jmfcool.com/sandbox/stopwatch",
+              {
+        "title": "CreditReporting ForDummies.com",
+        "date": "2009",
+        "url": "",
+        "tech": [
+          "PHP",
+          "MySQL",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Display",
+          "Search",
+          "Affiliate"
+        ],
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Micro Sites",
+    "slug": "micro-sites",
+    "entries": [
+      {
+        "title": "Jmfcooljs.org",
+        "date": "Present",
+        "url": "https://jmfcooljs.org",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "skate.jmfcool.com",
+        "date": "Present",
+        "url": "https://skate-resume-org.vercel.app",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "Resvibrant.co",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/micro/resvibrant.co",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "AdvancedAcai.com",
+        "date": "2009",
+        "url": "",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "Dermitage.com",
+        "date": "2007",
+        "url": "",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "Triclear.com",
+        "date": "2007",
+        "url": "",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Landing Pages",
+    "slug": "landing-pages",
+    "entries": [
+      {
+        "title": "Jmfcool.com",
+        "date": "Present",
+        "url": "https://zigzagfog.github.io/www.jmfccol.com",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic",
+          "Search"
+        ],
+        "links": []
+      },
+      {
+        "title": "MalibuBrightOffer.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/landing/malibubrightoffer.com/",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "InstantEffectTrial.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/landing/instanteffecttrial.com/",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "Resvibrant.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/landing/resvibrant.com/",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "BellaplexTrial.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/landing/bellaplextrial.com/",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "CupCakesForFree.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/landing/cupcakesforfree.com/",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "TrimlineFlex.com",
+        "date": "2012",
+        "url": "https://projects.jmfcool.com/landing/trimlineflex.com/",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "TrimlineMax.com",
+        "date": "2012",
+        "url": "https://projects.jmfcool.com/landing/trimlinemax.com/",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "GreenMillionaire.com",
+        "date": "2009",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "DRTV"
+        ],
+        "links": []
+      },
+      {
+        "title": "AdvancedAcai.com",
+        "date": "2008",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "Dermitage.com",
+        "date": "2008",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "Onlingo.com",
+        "date": "2007",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "Triclear.com",
+        "date": "2007",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Display",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "LivingChristian.net",
+        "date": "2007",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Incentive",
+          "Affiliate"
+        ],
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Company Sites",
+    "slug": "company-sites",
+    "entries": [
+      {
+        "title": "Jmfcool.com",
+        "date": "Present",
+        "url": "https://jmfcool.com/",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "Runthrough.media",
+        "date": "2016",
+        "url": "https://runthrough.media/",
+        "tech": [
+          "HTML",
+          "CSS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "Squaretrade.com",
+        "date": "2015",
+        "url": "",
+        "tech": [
+          "Drupal",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "Encore.org",
+        "date": "2010",
+        "url": "https://projects.jmfcool.com/company/encore.org/",
+        "tech": [
+          "Drupal",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "KensWoodworking.com",
+        "date": "2009",
+        "url": "",
+        "tech": [
+          "Drupal",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "Syndero.com",
+        "date": "2008",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "InkIncStudio.com",
+        "date": "2006",
+        "url": "",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "GregStockDesigns.com",
+        "date": "2006",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      },
+      {
+        "title": "Sageworld.com",
+        "date": "2006",
+        "url": "",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Organic"
+        ],
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Blogs",
+    "slug": "blogs",
+    "entries": [
+      {
+        "title": "DailyDealsForLife.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/blogs/dailydealsforlife.com/",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Display",
+          "Search",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "Consumer WhiteningTrends.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/blogs/consumerwhiteningtrends.com",
+        "tech": [
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Display",
+          "Search",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "ConsumerVanity.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/blogs/consumervanity.com",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Display",
+          "Search",
+          "Affiliate"
+        ],
+        "links": []
+      },
+      {
+        "title": "Beautiful-Lifestyles.com",
+        "date": "2011",
+        "url": "https://projects.jmfcool.com/blogs/beautiful-lifestyles.com",
+        "tech": [
+          "PHP",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Display",
+          "Search",
+          "Affiliate"
+        ],
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Emails",
+    "slug": "emails",
+    "entries": [
+      {
+        "title": "Jmfcool.com",
+        "date": "Present",
+        "url": "https://jmfcool.com/emails/",
+        "tech": [
+          "HTML",
+          "CSS"
+        ],
+        "tags": [
+          "Remarketing"
+        ],
+        "links": []
+      },
+      {
+        "title": "Runthrough.media",
+        "date": "2016",
+        "url": "https://runthrough.media/emails/",
+        "tech": [
+          "HTML",
+          "CSS"
+        ],
+        "tags": [
+          "Remarketing"
+        ],
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Applications",
+    "slug": "applications",
+    "entries": [
+      {
+        "title": "Jmfcool.js",
+        "date": "Present",
+        "url": "https://github.com/jmfcool/jmfcool.js",
+        "tech": [
+          "JS",
+          "Views",
+          "Models"
+        ],
+        "tags": [
+          "Framework"
+        ],
+        "links": []
+      },
+      {
+        "title": "Bills by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI",
+          "JS",
+          "CSS",
+          "HTML"
+        ],
+        "tags": [
+          "App Store",
+          "Web"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/bills-by-jmfcool-com/id1602051840"
+          },
+          {
+            "label": "Web",
+            "href": "https://bills.jmfcool.com"
+          }
+        ]
+      },
+      {
+        "title": "Recipes by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI"
+        ],
+        "tags": [
+          "App Store",
+          "Web"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/recipes-by-jmfcool-com/id1598126608"
+          },
+          {
+            "label": "Web",
+            "href": "https://recipes.jmfcool.com"
+          }
+        ]
+      },
+      {
+        "title": "Sober by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI",
+          "Kotlin",
+          "JS",
+          "CSS",
+          "HTML"
+        ],
+        "tags": [
+          "App Store",
+          "Google Play",
+          "Web"
+        ],
+        "links": [
+          {
+            "label": "PWA",
+            "href": "https://sober-jmfcool-org-ulql.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "Spell by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI"
+        ],
+        "tags": [
+          "App Store"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/spell-by-jmfcool-com/id1595713149"
+          }
+        ]
+      },
+      {
+        "title": "Count by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI"
+        ],
+        "tags": [
+          "App Store"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/count-by-jmfcool-com/id1595372027"
+          }
+        ]
+      },
+      {
+        "title": "Math by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI"
+        ],
+        "tags": [
+          "App Store"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/math-by-jmfcool-com/id1594177719"
+          }
+        ]
+      },
+      {
+        "title": "Network by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI",
+          "JS",
+          "CSS",
+          "HTML"
+        ],
+        "tags": [
+          "App Store",
+          "Web"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/network-by-jmfcool-com/id1593033198"
+          },
+          {
+            "label": "Web",
+            "href": "https://network.jmfcool.com"
+          }
+        ]
+      },
+      {
+        "title": "Alphabet by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI"
+        ],
+        "tags": [
+          "App Store"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/alphabet-by-jmfcool-com/id1593754104"
+          }
+        ]
+      },
+      {
+        "title": "Tip by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "SwiftUI",
+          "JS",
+          "CSS",
+          "HTML"
+        ],
+        "tags": [
+          "App Store",
+          "Web"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/tip-by-jmfcool-com/id1592569609"
+          },
+          {
+            "label": "Web",
+            "href": "https://tip.jmfcool.com"
+          }
+        ]
+      },
+      {
+        "title": "Currency by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "Swift",
+          "JS",
+          "CSS",
+          "HTML"
+        ],
+        "tags": [
+          "App Store",
+          "Web"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/currency-by-jmfcool-com/id1561234037"
+          },
+          {
+            "label": "Web",
+            "href": "https://currency.jmfcool.com"
+          }
+        ]
+      },
+      {
+        "title": "Parked by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "Swift"
+        ],
+        "tags": [
+          "App Store"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/parked-by-jmfcool-com/id1561199106"
+          }
+        ]
+      },
+      {
+        "title": "Scan by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "Swift"
+        ],
+        "tags": [
+          "App Store"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/scan-by-jmfcool-com/id1560394635"
+          }
+        ]
+      },
+      {
+        "title": "Ambient by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "Swift"
+        ],
+        "tags": [
+          "App Store"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/ambient-by-jmfcool-com/id1558090507"
+          }
+        ]
+      },
+      {
+        "title": "Reviews by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "Swift",
+          "Kotlin",
+          "JS",
+          "CSS",
+          "HTML"
+        ],
+        "tags": [
+          "App Store",
+          "Google Play",
+          "Web"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/reviews-by-jmfcool-com/id1557729597"
+          },
+          {
+            "label": "Google Play",
+            "href": "https://play.google.com/store/apps/details?id=reviews.jmfcool.com"
+          },
+          {
+            "label": "Web",
+            "href": "https://reviews.jmfcool.com"
+          }
+        ]
+      },
+      {
+        "title": "Picture by Jmfcool.com",
+        "date": "Present",
+        "url": "",
+        "tech": [
+          "Swift"
+        ],
+        "tags": [
+          "App Store"
+        ],
+        "links": [
+          {
+            "label": "App Store",
+            "href": "https://apps.apple.com/us/app/picture-by-jmfcool-com/id1556996276"
+          }
+        ]
+      },
+      {
+        "title": "Chrome",
+        "date": "Present",
+        "url": "https://chrome.google.com/webstore/detail/jeremiahfariacom/gojkahpfholbipimghfnfnolfnpolffn?hl=en&authuser=0",
+        "tech": [
+          "JS"
+        ],
+        "tags": [
+          "Extension"
+        ],
+        "links": []
+      },
+      {
+        "title": "Incidents",
+        "date": "2016",
+        "url": "https://projects.jmfcool.com/apps/incidents/",
+        "tech": [
+          "MEAN"
+        ],
+        "tags": [
+          "In-House"
+        ],
+        "links": []
+      },
+      {
+        "title": "SuccessFactors.com",
+        "date": "2011",
+        "url": "",
+        "tech": [
+          "JS"
+        ],
+        "tags": [
+          "Tools"
+        ],
+        "links": []
+      },
+      {
+        "title": "Ookisa.com",
+        "date": "2008",
+        "url": "",
+        "tech": [
+          "Smarty",
+          "XHTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [
+          "Customer Portal"
+        ],
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Sandbox",
+    "slug": "sandbox",
+    "entries": [
+      {
+        "title": "Closures",
+        "date": "Present",
+        "url": "https://projects.jmfcool.com/sandbox/closures",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [],
+        "links": []
+      },
+      {
+        "title": "Cookies",
+        "date": "Present",
+        "url": "https://projects.jmfcool.com/sandbox/cookies",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
+        "tags": [],
+        "links": []
+      },
+      {
+        "title": "Counter",
+        "date": "Present",
+        "url": "https://projects.jmfcool.com/sandbox/counter",
+        "tech": [
+          "HTML",
+          "CSS",
+          "React.js"
+        ],
+        "tags": [],
+        "links": []
+      },
+      {
+        "title": "Stopwatch",
+        "date": "Present",
+        "url": "https://projects.jmfcool.com/sandbox/stopwatch",
         "tech": [
           "HTML",
           "CSS",
