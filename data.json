@@ -684,16 +684,8 @@
         ],
         "links": [
           {
-            "label": "App Store",
-            "href": "https://apps.apple.com/us/app/sober-by-jmfcool-com/id1596628114"
-          },
-          {
-            "label": "Google Play",
-            "href": "https://play.google.com/store/apps/details?id=jeremiahfaria.com"
-          },
-          {
-            "label": "Web",
-            "href": "https://sober.jmfcool.com"
+            "label": "PWA,
+            "href": "https://sober-jmfcool-org-ulql.vercel.app"
           }
         ]
       },
