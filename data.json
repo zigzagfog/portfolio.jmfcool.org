@@ -7,48 +7,24 @@
         "title": "BeautyUser.com",
         "date": "2009",
         "url": "",
-        "tech": [
-          "PHP",
-          "MySQL",
-          "CSS"
-        ],
-        "tags": [
-          "Display",
-          "Search",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "MySQL", "CSS"],
+        "tags": ["Display", "Search", "Affiliate"],
         "links": []
       },
       {
         "title": "Consumer HealthNews.com",
         "date": "2009",
         "url": "",
-        "tech": [
-          "PHP",
-          "CSS"
-        ],
-        "tags": [
-          "Display",
-          "Search",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS"],
+        "tags": ["Display", "Search", "Affiliate"],
         "links": []
       },
       {
         "title": "CreditReporting ForDummies.com",
         "date": "2009",
         "url": "",
-        "tech": [
-          "PHP",
-          "MySQL",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Display",
-          "Search",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "MySQL", "CSS", "JS"],
+        "tags": ["Display", "Search", "Affiliate"],
         "links": []
       }
     ]
@@ -61,84 +37,56 @@
         "title": "Jmfcooljs.org",
         "date": "Present",
         "url": "https://jmfcooljs.org",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["HTML", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "skate.jmfcool.com",
         "date": "Present",
         "url": "https://skate-resume-org.vercel.app",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["HTML", "CSS", "JS"],
+        "tags": ["Organic"],
+        "links": []
+      },
+      {
+        "title": "Stopwatch",
+        "date": "Present",
+        "url": "https://stopwatch-jmfcool-org.vercel.app",
+        "tech": ["HTML", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "Resvibrant.co",
         "date": "2011",
         "url": "https://projects.jmfcool.com/micro/resvibrant.co",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "AdvancedAcai.com",
         "date": "2009",
         "url": "",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["HTML", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "Dermitage.com",
         "date": "2007",
         "url": "",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["HTML", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "Triclear.com",
         "date": "2007",
         "url": "",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["HTML", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       }
     ]
@@ -151,220 +99,112 @@
         "title": "Jmfcool.com",
         "date": "Present",
         "url": "https://zigzagfog.github.io/www.jmfccol.com",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic",
-          "Search"
-        ],
+        "tech": ["HTML", "CSS", "JS"],
+        "tags": ["Organic", "Search"],
         "links": []
       },
       {
         "title": "MalibuBrightOffer.com",
         "date": "2011",
         "url": "https://projects.jmfcool.com/landing/malibubrightoffer.com/",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "InstantEffectTrial.com",
         "date": "2011",
         "url": "https://projects.jmfcool.com/landing/instanteffecttrial.com/",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "Resvibrant.com",
         "date": "2011",
         "url": "https://projects.jmfcool.com/landing/resvibrant.com/",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "BellaplexTrial.com",
         "date": "2011",
         "url": "https://projects.jmfcool.com/landing/bellaplextrial.com/",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "CupCakesForFree.com",
         "date": "2011",
         "url": "https://projects.jmfcool.com/landing/cupcakesforfree.com/",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "TrimlineFlex.com",
         "date": "2012",
         "url": "https://projects.jmfcool.com/landing/trimlineflex.com/",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "TrimlineMax.com",
         "date": "2012",
         "url": "https://projects.jmfcool.com/landing/trimlinemax.com/",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "GreenMillionaire.com",
         "date": "2009",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "DRTV"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["DRTV"],
         "links": []
       },
       {
         "title": "AdvancedAcai.com",
         "date": "2008",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "Dermitage.com",
         "date": "2008",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "Onlingo.com",
         "date": "2007",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "Triclear.com",
         "date": "2007",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Display",
-          "Affiliate"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["Incentive", "Display", "Affiliate"],
         "links": []
       },
       {
         "title": "LivingChristian.net",
         "date": "2007",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Incentive",
-          "Affiliate"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["Incentive", "Affiliate"],
         "links": []
       }
     ]
@@ -377,124 +217,72 @@
         "title": "Jmfcool.com",
         "date": "Present",
         "url": "https://jmfcool.com/",
-        "tech": [
-          "HTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["HTML", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "Runthrough.media",
         "date": "2016",
         "url": "https://runthrough.media/",
-        "tech": [
-          "HTML",
-          "CSS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["HTML", "CSS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "Squaretrade.com",
         "date": "2015",
         "url": "",
-        "tech": [
-          "Drupal",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["Drupal", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "Encore.org",
         "date": "2010",
         "url": "https://projects.jmfcool.com/company/encore.org/",
-        "tech": [
-          "Drupal",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["Drupal", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "KensWoodworking.com",
         "date": "2009",
         "url": "",
-        "tech": [
-          "Drupal",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["Drupal", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "Syndero.com",
         "date": "2008",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["XHTML", "CSS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "InkIncStudio.com",
         "date": "2006",
         "url": "",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "GregStockDesigns.com",
         "date": "2006",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       },
       {
         "title": "Sageworld.com",
         "date": "2006",
         "url": "",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Organic"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["Organic"],
         "links": []
       }
     ]
@@ -507,31 +295,18 @@
         "title": "DailyDealsForLife.com",
         "date": "2011",
         "url": "https://projects.jmfcool.com/blogs/dailydealsforlife.com/",
-        "tech": [
-          "PHP",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Display",
-          "Search",
-          "Affiliate"
-        ],
+        "tech": ["PHP", "CSS", "JS"],
+        "tags": ["Display", "Search", "Affiliate"],
         "links": []
       },
       {
         "title": "Consumer WhiteningTrends.com",
         "date": "2011",
         "url": "https://projects.jmfcool.com/blogs/consumerwhiteningtrends.com",
-        "tech": [
-          "XHTML",
-          "CSS",
-          "JS"
-        ],
-        "tags": [
-          "Display",
-          "Search",
-          "Affiliate"
-        ],
+        "tech": ["XHTML", "CSS", "JS"],
+        "tags": ["Display", "Search", "Affiliate"],
         "links": []
-      
+      }
+    ]
+  }
+]
