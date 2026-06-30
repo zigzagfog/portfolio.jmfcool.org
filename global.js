@@ -21,7 +21,10 @@
   const syncTheme = () => {
     if (!toggle) return;
     toggle.innerHTML = theme === 'dark' ? moon : sun;
-    toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    toggle.setAttribute(
+      'aria-label',
+      theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'
+    );
   };
 
   syncTheme();
@@ -53,6 +56,17 @@
       <div class="project-card__tags">
         ${(item.tags || []).slice(0, 4).map((tag) => createPill(tag, true)).join('')}
       </div>
+      ${
+        item.button
+          ? `
+            <div class="project-card__actions">
+              <a class="btn btn--primary" href="${item.button.href}" target="_blank" rel="noopener noreferrer">
+                ${item.button.label}
+              </a>
+            </div>
+          `
+          : ''
+      }
     </article>
   `;
 
@@ -61,7 +75,9 @@
   const sections = data.categories || [];
 
   statCategories.textContent = String(sections.length);
-  statProjects.textContent = String(sections.reduce((sum, section) => sum + (section.items || []).length, 0));
+  statProjects.textContent = String(
+    sections.reduce((sum, section) => sum + (section.items || []).length, 0)
+  );
 
   heroPreview.innerHTML = '';
   sections.slice(0, 3).forEach((section) => {
@@ -93,7 +109,7 @@
               <span class="section-label">${section.name}</span>
               <h3 class="section-title section-title--sm">${section.name}</h3>
               <p class="section-copy">
-                Rendered directly from the original portfolio archive with title, time, technologies, and tags intact.
+                Rendered directly from the original portfolio archive with title, time, technologies, tags, and buttons intact.
               </p>
             </div>
             <span class="portfolio-count">${(section.items || []).length} items</span>
