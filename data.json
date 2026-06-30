@@ -517,7 +517,7 @@
           "tags": ["App Store", "Web"],
           "button": {
             "label": "Open project",
-            "href": "#"
+            "href": "https://tips-jmfcool-org.vercel.app"
           }
         },
         {
