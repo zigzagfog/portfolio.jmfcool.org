@@ -1,40 +1,496 @@
-[
-  {
-    "name": "Blogs",
-    "slug": "blogs",
-    "entries": [
-      {
-        "title": "Consumer WhiteningTrends.com",
-        "date": "2011",
-        "url": "https://projects.jmfcool.com/blogs/consumerwhiteningtrends.com",
-        "tech": ["XHTML", "CSS", "JS"],
-        "tags": ["Display", "Search", "Affiliate"],
-        "links": []
-      },
-      {
-        "title": "DailyDealsForLife.com",
-        "date": "2011",
-        "url": "https://projects.jmfcool.com/blogs/dailydealsforlife.com/",
-        "tech": ["PHP", "CSS", "JS"],
-        "tags": ["Display", "Search", "Affiliate"],
-        "links": []
-      }
-    ]
-  },
-  {
-    "name": "Company Sites",
-    "slug": "company-sites",
-    "entries": [
-      {
-        "title": "Sageworld.com",
-        "date": "2006",
-        "url": "",
-        "tech": ["XHTML", "CSS", "JS"],
-        "tags": ["Organic"],
-        "links": []
-      },
-      {
-        "title": "GregStockDesigns.com",
+{
+  "categories": [
+    {
+      "name": "Review Sites",
+      "items": [
+        {
+          "title": "BeautyUser.com",
+          "time": "2009",
+          "technologies": ["PHP", "MySQL", "CSS"],
+          "tags": ["Display", "Search", "Affiliate", "Consumer"]
+        },
+        {
+          "title": "HealthNews.com",
+          "time": "2009",
+          "technologies": ["PHP", "CSS"],
+          "tags": ["Display", "Search", "Affiliate"]
+        },
+        {
+          "title": "CreditReportingForDummies.com",
+          "time": "2009",
+          "technologies": ["PHP", "MySQL", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate"]
+        }
+      ]
+    },
+    {
+      "name": "Micro Sites",
+      "items": [
+        {
+          "title": "Jmfcooljs.org",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "skate.jmfcool.com",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "Resvibrant.co",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "AdvancedAcai.com",
+          "time": "2009",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "Dermitage.com",
+          "time": "2007",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "Triclear.com",
+          "time": "2007",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"]
+        }
+      ]
+    },
+    {
+      "name": "Landing Pages",
+      "items": [
+        {
+          "title": "Jmfcool.com",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic", "Search"]
+        },
+        {
+          "title": "MalibuBrightOffer.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "InstantEffectTrial.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "Resvibrant.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "BellaplexTrial.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "CupCakesForFree.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "TrimlineFlex.com",
+          "time": "2012",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "TrimlineMax.com",
+          "time": "2012",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "GreenMillionaire.com",
+          "time": "2009",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["DRTV"]
+        },
+        {
+          "title": "AdvancedAcai.com",
+          "time": "2008",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "Dermitage.com",
+          "time": "2008",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "Onlingo.com",
+          "time": "2007",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "Triclear.com",
+          "time": "2007",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"]
+        },
+        {
+          "title": "LivingChristian.net",
+          "time": "2007",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Affiliate"]
+        }
+      ]
+    },
+    {
+      "name": "Company Sites",
+      "items": [
+        {
+          "title": "Jmfcool.com",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "Runthrough.media",
+          "time": "2016",
+          "technologies": ["HTML", "CSS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "Squaretrade.com",
+          "time": "2015",
+          "technologies": ["Drupal", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "Encore.org",
+          "time": "2010",
+          "technologies": ["Drupal", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "KensWoodworking.com",
+          "time": "2009",
+          "technologies": ["Drupal", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "Syndero.com",
+          "time": "2008",
+          "technologies": ["XHTML", "CSS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "InkIncStudio.com",
+          "time": "2006",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "GregStockDesigns.com",
+          "time": "2006",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Organic"]
+        },
+        {
+          "title": "Sageworld.com",
+          "time": "2006",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Organic"]
+        }
+      ]
+    },
+    {
+      "name": "Blogs",
+      "items": [
+        {
+          "title": "DailyDealsForLife.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate", "Consumer"]
+        },
+        {
+          "title": "WhiteningTrends.com",
+          "time": "2011",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate", "Consumer"]
+        },
+        {
+          "title": "ConsumerVanity.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate"]
+        },
+        {
+          "title": "Beautiful-Lifestyles.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate"]
+        }
+      ]
+    },
+    {
+      "name": "Emails",
+      "items": [
+        {
+          "title": "Jmfcool.com",
+          "time": "Present",
+          "technologies": ["HTML", "CSS"],
+          "tags": ["Remarketing"]
+        },
+        {
+          "title": "Runthrough.media",
+          "time": "2016",
+          "technologies": ["HTML", "CSS"],
+          "tags": ["Remarketing"]
+        }
+      ]
+    },
+    {
+      "name": "Applications",
+      "items": [
+        {
+          "title": "Jmfcool.js",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["Views", "Models", "Framework"]
+        },
+        {
+          "title": "Bills by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Web"]
+        },
+        {
+          "title": "Recipes by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store", "Web"]
+        },
+        {
+          "title": "Sober by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI", "Kotlin", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Google Play", "Web"]
+        },
+        {
+          "title": "Spell by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store"]
+        },
+        {
+          "title": "Count by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store"]
+        },
+        {
+          "title": "Math by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store"]
+        },
+        {
+          "title": "Network by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Web"]
+        },
+        {
+          "title": "Alphabet by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store"]
+        },
+        {
+          "title": "Tip by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Web"]
+        },
+        {
+          "title": "Currency by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Web"]
+        },
+        {
+          "title": "Parked by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift"],
+          "tags": ["App Store"]
+        },
+        {
+          "title": "Scan by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift"],
+          "tags": ["App Store"]
+        },
+        {
+          "title": "Ambient by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift"],
+          "tags": ["App Store"]
+        },
+        {
+          "title": "Reviews by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift", "Kotlin", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Google Play", "Web"]
+        },
+        {
+          "title": "Picture by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift"],
+          "tags": ["App Store"]
+        },
+        {
+          "title": "Chrome",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["Extension"]
+        },
+        {
+          "title": "Incidents",
+          "time": "2016",
+          "technologies": ["MEAN"],
+          "tags": ["In-House"]
+        },
+        {
+          "title": "SuccessFactors.com",
+          "time": "2011",
+          "technologies": ["JS"],
+          "tags": ["Tools"]
+        },
+        {
+          "title": "Ookisa.com",
+          "time": "2008",
+          "technologies": ["Smarty", "XHTML", "CSS", "JS"],
+          "tags": ["Customer Portal"]
+        }
+      ]
+    },
+    {
+      "name": "Sandbox",
+      "items": [
+        {
+          "title": "Closures",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "Cookies",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "Counter",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "React.js"]
+        },
+        {
+          "title": "Stopwatch",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "Timer",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "XHR",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "JSONP",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "Async / Await",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["Promises"]
+        },
+        {
+          "title": "Then",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["Promises"]
+        },
+        {
+          "title": "Autocomplete",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "Github",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "AngularJS"]
+        },
+        {
+          "title": "Todo",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "AngularJS"]
+        },
+        {
+          "title": "Callback",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["General"]
+        },
+        {
+          "title": "Asynchronous",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["General"]
+        },
+        {
+          "title": "Synchronous",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["General"]
+        },
+        {
+          "title": "Closure",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["General"]
+        },
+        {
+          "title": "Toggle Stylesheet",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "Switch User",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"]
+        },
+        {
+          "title": "Javascript Framework",
+          "time": "Present",
+          "technologies": ["Templates", "Promises", "Modules"]
+        }
+      ]
+    }
+  ]
+}        "title": "GregStockDesigns.com",
         "date": "2006",
         "url": "",
         "tech": ["XHTML", "CSS", "JS"],
