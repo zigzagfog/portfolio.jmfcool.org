@@ -1,501 +1,108 @@
-{
-  "categories": [
-    {
-      "name": "Review Sites",
-      "slug": "review-sites",
-      "items": [
-        {
-          "title": "BeautyUser.com",
-          "time": "2009",
-          "technologies": ["PHP", "MySQL", "CSS"],
-          "tags": ["Display", "Search", "Affiliate", "Consumer"]
-        },
-        {
-          "title": "HealthNews.com",
-          "time": "2009",
-          "technologies": ["PHP", "CSS"],
-          "tags": ["Display", "Search", "Affiliate"]
-        },
-        {
-          "title": "CreditReportingForDummies.com",
-          "time": "2009",
-          "technologies": ["PHP", "MySQL", "CSS", "JS"],
-          "tags": ["Display", "Search", "Affiliate"]
-        }
-      ]
-    },
-    {
-      "name": "Micro Sites",
-      "slug": "micro-sites",
-      "items": [
-        {
-          "title": "Jmfcooljs.org",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "skate.jmfcool.com",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "Resvibrant.co",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "AdvancedAcai.com",
-          "time": "2009",
-          "technologies": ["HTML", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "Dermitage.com",
-          "time": "2007",
-          "technologies": ["HTML", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "Triclear.com",
-          "time": "2007",
-          "technologies": ["HTML", "CSS", "JS"],
-          "tags": ["Organic"]
-        }
-      ]
-    },
-    {
-      "name": "Landing Pages",
-      "slug": "landing-pages",
-      "items": [
-        {
-          "title": "Jmfcool.com",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"],
-          "tags": ["Organic", "Search"]
-        },
-        {
-          "title": "MalibuBrightOffer.com",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "InstantEffectTrial.com",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "Resvibrant.com",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "BellaplexTrial.com",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "CupCakesForFree.com",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "TrimlineFlex.com",
-          "time": "2012",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "TrimlineMax.com",
-          "time": "2012",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "GreenMillionaire.com",
-          "time": "2009",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["DRTV"]
-        },
-        {
-          "title": "AdvancedAcai.com",
-          "time": "2008",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "Dermitage.com",
-          "time": "2008",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "Onlingo.com",
-          "time": "2007",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "Triclear.com",
-          "time": "2007",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["Incentive", "Display", "Affiliate"]
-        },
-        {
-          "title": "LivingChristian.net",
-          "time": "2007",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["Incentive", "Affiliate"]
-        }
-      ]
-    },
-    {
-      "name": "Company Sites",
-      "slug": "company-sites",
-      "items": [
-        {
-          "title": "Jmfcool.com",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "Runthrough.media",
-          "time": "2016",
-          "technologies": ["HTML", "CSS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "Squaretrade.com",
-          "time": "2015",
-          "technologies": ["Drupal", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "Encore.org",
-          "time": "2010",
-          "technologies": ["Drupal", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "KensWoodworking.com",
-          "time": "2009",
-          "technologies": ["Drupal", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "Syndero.com",
-          "time": "2008",
-          "technologies": ["XHTML", "CSS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "InkIncStudio.com",
-          "time": "2006",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "GregStockDesigns.com",
-          "time": "2006",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["Organic"]
-        },
-        {
-          "title": "Sageworld.com",
-          "time": "2006",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["Organic"]
-        }
-      ]
-    },
-    {
-      "name": "Blogs",
-      "slug": "blogs",
-      "items": [
-        {
-          "title": "DailyDealsForLife.com",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Display", "Search", "Affiliate", "Consumer"]
-        },
-        {
-          "title": "WhiteningTrends.com",
-          "time": "2011",
-          "technologies": ["XHTML", "CSS", "JS"],
-          "tags": ["Display", "Search", "Affiliate", "Consumer"]
-        },
-        {
-          "title": "ConsumerVanity.com",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Display", "Search", "Affiliate"]
-        },
-        {
-          "title": "Beautiful-Lifestyles.com",
-          "time": "2011",
-          "technologies": ["PHP", "CSS", "JS"],
-          "tags": ["Display", "Search", "Affiliate"]
-        }
-      ]
-    },
-    {
-      "name": "Emails",
-      "slug": "emails",
-      "items": [
-        {
-          "title": "Jmfcool.com",
-          "time": "Present",
-          "technologies": ["HTML", "CSS"],
-          "tags": ["Remarketing"]
-        },
-        {
-          "title": "Runthrough.media",
-          "time": "2016",
-          "technologies": ["HTML", "CSS"],
-          "tags": ["Remarketing"]
-        }
-      ]
-    },
-    {
-      "name": "Applications",
-      "slug": "applications",
-      "items": [
-        {
-          "title": "Jmfcool.js",
-          "time": "Present",
-          "technologies": ["JS"],
-          "tags": ["Views", "Models", "Framework"]
-        },
-        {
-          "title": "Bills by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
-          "tags": ["App Store", "Web"]
-        },
-        {
-          "title": "Recipes by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI"],
-          "tags": ["App Store", "Web"]
-        },
-        {
-          "title": "Sober by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI", "Kotlin", "JS", "CSS", "HTML"],
-          "tags": ["App Store", "Google Play", "Web"]
-        },
-        {
-          "title": "Spell by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI"],
-          "tags": ["App Store"]
-        },
-        {
-          "title": "Count by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI"],
-          "tags": ["App Store"]
-        },
-        {
-          "title": "Math by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI"],
-          "tags": ["App Store"]
-        },
-        {
-          "title": "Network by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
-          "tags": ["App Store", "Web"]
-        },
-        {
-          "title": "Alphabet by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI"],
-          "tags": ["App Store"]
-        },
-        {
-          "title": "Tip by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
-          "tags": ["App Store", "Web"]
-        },
-        {
-          "title": "Currency by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["Swift", "JS", "CSS", "HTML"],
-          "tags": ["App Store", "Web"]
-        },
-        {
-          "title": "Parked by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["Swift"],
-          "tags": ["App Store"]
-        },
-        {
-          "title": "Scan by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["Swift"],
-          "tags": ["App Store"]
-        },
-        {
-          "title": "Ambient by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["Swift"],
-          "tags": ["App Store"]
-        },
-        {
-          "title": "Reviews by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["Swift", "Kotlin", "JS", "CSS", "HTML"],
-          "tags": ["App Store", "Google Play", "Web"]
-        },
-        {
-          "title": "Picture by Jmfcool.com",
-          "time": "Present",
-          "technologies": ["Swift"],
-          "tags": ["App Store"]
-        },
-        {
-          "title": "Chrome",
-          "time": "Present",
-          "technologies": ["JS"],
-          "tags": ["Extension"]
-        },
-        {
-          "title": "Incidents",
-          "time": "2016",
-          "technologies": ["MEAN"],
-          "tags": ["In-House"]
-        },
-        {
-          "title": "SuccessFactors.com",
-          "time": "2011",
-          "technologies": ["JS"],
-          "tags": ["Tools"]
-        },
-        {
-          "title": "Ookisa.com",
-          "time": "2008",
-          "technologies": ["Smarty", "XHTML", "CSS", "JS"],
-          "tags": ["Customer Portal"]
-        }
-      ]
-    },
-    {
-      "name": "Sandbox",
-      "slug": "sandbox",
-      "items": [
-        {
-          "title": "Closures",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "Cookies",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "Counter",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "React.js"]
-        },
-        {
-          "title": "Stopwatch",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "Timer",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "XHR",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "JSONP",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "Async / Await",
-          "time": "Present",
-          "technologies": ["JS"],
-          "tags": ["Promises"]
-        },
-        {
-          "title": "Then",
-          "time": "Present",
-          "technologies": ["JS"],
-          "tags": ["Promises"]
-        },
-        {
-          "title": "Autocomplete",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "Github",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "AngularJS"]
-        },
-        {
-          "title": "Todo",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "AngularJS"]
-        },
-        {
-          "title": "Callback",
-          "time": "Present",
-          "technologies": ["JS"],
-          "tags": ["General"]
-        },
-        {
-          "title": "Asynchronous",
-          "time": "Present",
-          "technologies": ["JS"],
-          "tags": ["General"]
-        },
-        {
-          "title": "Synchronous",
-          "time": "Present",
-          "technologies": ["JS"],
-          "tags": ["General"]
-        },
-        {
-          "title": "Closure",
-          "time": "Present",
-          "technologies": ["JS"],
-          "tags": ["General"]
-        },
-        {
-          "title": "Toggle Stylesheet",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "Switch User",
-          "time": "Present",
-          "technologies": ["HTML", "CSS", "JS"]
-        },
-        {
-          "title": "Javascript Framework",
-          "time": "Present",
-          "technologies": ["Templates", "Promises", "Modules"]
-        }
-      ]
-    }
-  ]
-}
+(async function () {
+  const root = document.documentElement;
+  const toggle = document.querySelector('[data-theme-toggle]');
+  const heroPreview = document.getElementById('heroPreview');
+  const filterPills = document.getElementById('filterPills');
+  const sectionsRoot = document.getElementById('sectionsRoot');
+  const statProjects = document.getElementById('stat-projects');
+  const statCategories = document.getElementById('stat-categories');
+
+  let theme = 'dark';
+  root.setAttribute('data-theme', theme);
+
+  const moon =
+    '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+  const sun =
+    '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>';
+
+  const slugify = (text) =>
+    text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+  const syncTheme = () => {
+    if (!toggle) return;
+    toggle.innerHTML = theme === 'dark' ? moon : sun;
+    toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+  };
+
+  syncTheme();
+
+  toggle?.addEventListener('click', () => {
+    theme = theme === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', theme);
+    syncTheme();
+  });
+
+  const createPill = (text, accent = false) =>
+    `<span class="pill ${accent ? 'pill--accent' : ''}">${text}</span>`;
+
+  const createCard = (item, category) => `
+    <article class="project-card">
+      <div class="project-card__top">
+        <div>
+          <div class="section-label">${category}</div>
+          <h3 class="project-card__title">${item.title}</h3>
+        </div>
+        <span class="year">${item.time || 'Archive'}</span>
+      </div>
+      <p class="project-card__desc">
+        ${item.title} project card preserving the original title, time, technologies, and tags from the archive.
+      </p>
+      <div class="project-card__stack">
+        ${(item.technologies || []).slice(0, 5).map((tech) => createPill(tech)).join('')}
+      </div>
+      <div class="project-card__tags">
+        ${(item.tags || []).slice(0, 4).map((tag) => createPill(tag, true)).join('')}
+      </div>
+    </article>
+  `;
+
+  const res = await fetch('./data.json');
+  const data = await res.json();
+  const sections = data.categories || [];
+
+  statCategories.textContent = String(sections.length);
+  statProjects.textContent = String(sections.reduce((sum, section) => sum + (section.items || []).length, 0));
+
+  heroPreview.innerHTML = '';
+  sections.slice(0, 3).forEach((section) => {
+    heroPreview.insertAdjacentHTML(
+      'beforeend',
+      `
+      <article class="preview-card">
+        <strong>${section.name}</strong>
+        <span>${(section.items || []).length} projects in the original archive structure</span>
+      </article>
+    `
+    );
+  });
+
+  filterPills.innerHTML = sections
+    .map(
+      (section, index) =>
+        `<a class="filter-pill ${index === 0 ? 'is-active' : ''}" href="#${slugify(section.name)}">${section.name}</a>`
+    )
+    .join('');
+
+  sectionsRoot.innerHTML = sections
+    .map((section) => {
+      const id = slugify(section.name);
+      return `
+        <section class="portfolio-section" id="${id}">
+          <div class="portfolio-section__head">
+            <div>
+              <span class="section-label">${section.name}</span>
+              <h3 class="section-title section-title--sm">${section.name}</h3>
+              <p class="section-copy">
+                Rendered directly from the original portfolio archive with title, time, technologies, and tags intact.
+              </p>
+            </div>
+            <span class="portfolio-count">${(section.items || []).length} items</span>
+          </div>
+          <div class="cards-grid">
+            ${(section.items || []).map((item) => createCard(item, section.name)).join('')}
+          </div>
+        </section>
+      `;
+    })
+    .join('');
+})();
