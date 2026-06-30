@@ -659,7 +659,7 @@
           "technologies": ["HTML", "CSS", "JS"],
           "button": {
             "label": "Open project",
-            "href": "#"
+            "href": "https://stopwatch-jmfcool-org.vercel.app"
           }
         },
         {
