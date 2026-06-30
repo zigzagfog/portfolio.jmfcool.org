@@ -437,7 +437,7 @@
           "tags": ["App Store", "Web"],
           "button": {
             "label": "Open project",
-            "href": "#"
+            "href": "https://budget-jmfcool-org.vercel.app"
           }
         },
         {
