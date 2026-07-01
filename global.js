@@ -3,6 +3,7 @@ function initThemeToggle() {
   const toggle = document.querySelector("[data-theme-toggle]");
   if (!toggle) return;
 
+  // Respect the current HTML attribute instead of overriding it
   let theme = root.getAttribute("data-theme") || "dark";
   root.setAttribute("data-theme", theme);
 
