@@ -127,6 +127,7 @@ select {
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
 
 .nav__logo {
@@ -167,7 +168,7 @@ select {
 .nav__links a {
   font-size: 0.96rem;
   color: var(--color-text-muted);
-  transition: color 160ms ease;
+  transition: color 160ms ease, background-color 160ms ease;
 }
 
 .nav__links a:hover {
@@ -178,6 +179,31 @@ select {
   display: inline-flex;
   align-items: center;
   gap: 12px;
+}
+
+.nav__toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nav__toggle span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  transition: transform 160ms ease, opacity 160ms ease;
 }
 
 .nav-cta,
@@ -214,7 +240,8 @@ select {
 .btn--ghost,
 .nav-cta,
 .back-to-top,
-.theme-toggle {
+.theme-toggle,
+.nav__toggle {
   background: transparent;
   border: 1px solid var(--color-border);
 }
@@ -541,14 +568,80 @@ select {
 
 @media (max-width: 980px) {
   .nav__inner {
-    grid-template-columns: 1fr;
-    justify-items: start;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 12px;
+    min-height: 76px;
     padding: 14px 0;
   }
 
+  .nav__logo {
+    min-width: 0;
+  }
+
+  .nav__wordmark {
+    font-size: 1.15rem;
+  }
+
+  .nav__toggle {
+    display: inline-flex;
+  }
+
+  .nav__actions {
+    width: auto;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .nav__actions .nav-cta {
+    display: none;
+  }
+
   .nav__links {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    z-index: 200;
+    flex-direction: column;
+    align-items: stretch;
     justify-content: flex-start;
-    gap: 16px;
+    gap: 6px;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 18px;
+    background: var(--color-surface);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  }
+
+  .nav__links.is-open {
+    display: flex;
+  }
+
+  .nav__links a {
+    display: block;
+    padding: 12px 14px;
+    border-radius: 12px;
+    color: var(--color-text);
+    background: transparent;
+  }
+
+  .nav__links a:hover {
+    color: var(--color-text);
+    background: var(--color-surface-2);
+  }
+
+  .nav__toggle[aria-expanded="true"] span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .nav__toggle[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav__toggle[aria-expanded="true"] span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
   }
 
   .hero__grid {
@@ -577,10 +670,6 @@ select {
   .btn {
     width: 100%;
     min-width: 0;
-  }
-
-  .nav__actions {
-    width: 100%;
   }
 
   .projects-grid {
