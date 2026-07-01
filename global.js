@@ -805,3 +805,5 @@ function initPortfolio() {
 }
 
 document.addEventListener("DOMContentLoaded", initPortfolio);
+
+</query>
