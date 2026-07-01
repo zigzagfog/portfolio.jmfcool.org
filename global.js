@@ -776,7 +776,7 @@ function initThemeToggle() {
   const toggle = document.querySelector("[data-theme-toggle]");
   if (!toggle) return;
 
-  let theme = root.getAttribute("data-theme") || "dark";
+  let theme = root.getAttribute("data-theme") || "light";
   root.setAttribute("data-theme", theme);
 
   const setIcon = () => {
@@ -804,6 +804,8 @@ function initPortfolio() {
   initThemeToggle();
 }
 
-document.addEventListener("DOMContentLoaded", initPortfolio);
-
-</query>
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initPortfolio, { once: true });
+} else {
+  initPortfolio();
+}
