@@ -591,8 +591,18 @@ const portfolioData = {
 };
 
 const state = {
-  activeFilter: "all"
+  activeFilter: "all",
+  theme: "dark"
 };
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
 
 function normalizeItem(item) {
   return {
@@ -616,18 +626,14 @@ function getAllProjects(data) {
   );
 }
 
-function escapeHtml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
-}
-
 function createPill(label, slug, isActive) {
   return `
-    <button class="filter-pill${isActive ? " is-active" : ""}" type="button" data-filter="${escapeHtml(slug)}">
+    <button
+      class="filter-pill${isActive ? " is-active" : ""}"
+      type="button"
+      data-filter="${escapeHtml(slug)}"
+      aria-pressed="${isActive ? "true" : "false"}"
+    >
       ${escapeHtml(label)}
     </button>
   `;
@@ -776,8 +782,9 @@ function initThemeToggle() {
   const toggle = document.querySelector("[data-theme-toggle]");
   if (!toggle) return;
 
-  let theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  let theme = root.getAttribute("data-theme") || "dark";
   root.setAttribute("data-theme", theme);
+  state.theme = theme;
 
   const setIcon = () => {
     toggle.setAttribute("aria-label", `Switch to ${theme === "dark" ? "light" : "dark"} mode`);
@@ -791,6 +798,7 @@ function initThemeToggle() {
 
   toggle.addEventListener("click", () => {
     theme = theme === "dark" ? "light" : "dark";
+    state.theme = theme;
     root.setAttribute("data-theme", theme);
     setIcon();
   });
