@@ -1,1 +1,810 @@
 
+{
+  "categories": [
+    {
+      "name": "Review Sites",
+      "slug": "review-sites",
+      "items": [
+        {
+          "title": "BeautyUser.com",
+          "time": "2009",
+          "technologies": ["PHP", "MySQL", "CSS"],
+          "tags": ["Display", "Search", "Affiliate", "Consumer"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "HealthNews.com",
+          "time": "2009",
+          "technologies": ["PHP", "CSS"],
+          "tags": ["Display", "Search", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "CreditReportingForDummies.com",
+          "time": "2009",
+          "technologies": ["PHP", "MySQL", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Micro Sites",
+      "slug": "micro-sites",
+      "items": [
+        {
+          "title": "Jmfcooljs.org",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "skate.jmfcool.com",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "https://skate-jmfcool-org.vercel.app"
+          }
+        },
+        {
+          "title": "Resvibrant.co",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "AdvancedAcai.com",
+          "time": "2009",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Dermitage.com",
+          "time": "2007",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Triclear.com",
+          "time": "2007",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Landing Pages",
+      "slug": "landing-pages",
+      "items": [
+        {
+          "title": "Jmfcool.com",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic", "Search"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "MalibuBrightOffer.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "InstantEffectTrial.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Resvibrant.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "BellaplexTrial.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "CupCakesForFree.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "TrimlineFlex.com",
+          "time": "2012",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "TrimlineMax.com",
+          "time": "2012",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "GreenMillionaire.com",
+          "time": "2009",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["DRTV"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "AdvancedAcai.com",
+          "time": "2008",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Dermitage.com",
+          "time": "2008",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Onlingo.com",
+          "time": "2007",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Triclear.com",
+          "time": "2007",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Display", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "LivingChristian.net",
+          "time": "2007",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Incentive", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Company Sites",
+      "slug": "company-sites",
+      "items": [
+        {
+          "title": "Jmfcool.com",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Runthrough.media",
+          "time": "2016",
+          "technologies": ["HTML", "CSS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Squaretrade.com",
+          "time": "2015",
+          "technologies": ["Drupal", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Encore.org",
+          "time": "2010",
+          "technologies": ["Drupal", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "KensWoodworking.com",
+          "time": "2009",
+          "technologies": ["Drupal", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Syndero.com",
+          "time": "2008",
+          "technologies": ["XHTML", "CSS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "InkIncStudio.com",
+          "time": "2006",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "GregStockDesigns.com",
+          "time": "2006",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Sageworld.com",
+          "time": "2006",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Organic"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Blogs",
+      "slug": "blogs",
+      "items": [
+        {
+          "title": "DailyDealsForLife.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate", "Consumer"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "WhiteningTrends.com",
+          "time": "2011",
+          "technologies": ["XHTML", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate", "Consumer"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "ConsumerVanity.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Beautiful-Lifestyles.com",
+          "time": "2011",
+          "technologies": ["PHP", "CSS", "JS"],
+          "tags": ["Display", "Search", "Affiliate"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Emails",
+      "slug": "emails",
+      "items": [
+        {
+          "title": "Jmfcool.com",
+          "time": "Present",
+          "technologies": ["HTML", "CSS"],
+          "tags": ["Remarketing"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Runthrough.media",
+          "time": "2016",
+          "technologies": ["HTML", "CSS"],
+          "tags": ["Remarketing"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Applications",
+      "slug": "applications",
+      "items": [
+        {
+          "title": "Jmfcool.js",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["Views", "Models", "Framework"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Bills by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Web"],
+          "button": {
+            "label": "Open project",
+            "href": "https://budget-jmfcool-org.vercel.app"
+          }
+        },
+        {
+          "title": "Recipes by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store", "Web"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Sober by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI", "Kotlin", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Google Play", "Web"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Spell by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Count by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Math by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Network by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Web"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Alphabet by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI"],
+          "tags": ["App Store"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Tip by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["SwiftUI", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Web"],
+          "button": {
+            "label": "Open project",
+            "href": "https://tips-jmfcool-org.vercel.app"
+          }
+        },
+        {
+          "title": "Currency by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Web"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Parked by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift"],
+          "tags": ["App Store"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Scan by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift"],
+          "tags": ["App Store"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Ambient by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift"],
+          "tags": ["App Store"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Reviews by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift", "Kotlin", "JS", "CSS", "HTML"],
+          "tags": ["App Store", "Google Play", "Web"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Picture by Jmfcool.com",
+          "time": "Present",
+          "technologies": ["Swift"],
+          "tags": ["App Store"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Chrome",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["Extension"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Incidents",
+          "time": "2016",
+          "technologies": ["MEAN"],
+          "tags": ["In-House"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "SuccessFactors.com",
+          "time": "2011",
+          "technologies": ["JS"],
+          "tags": ["Tools"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Ookisa.com",
+          "time": "2008",
+          "technologies": ["Smarty", "XHTML", "CSS", "JS"],
+          "tags": ["Customer Portal"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sandbox",
+      "slug": "sandbox",
+      "items": [
+        {
+          "title": "Closures",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Cookies",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Counter",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "React.js"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Stopwatch",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "https://stopwatch-jmfcool-org.vercel.app"
+          }
+        },
+        {
+          "title": "Timer",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "XHR",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "JSONP",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Async / Await",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["Promises"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Then",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["Promises"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Autocomplete",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Github",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "AngularJS"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Todo",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "AngularJS"],
+          "button": {
+            "label": "Open project",
+            "href": "https://todo-jmfcool-19spe0geg-zigzagfog.vercel.app"
+          }
+        },
+        {
+          "title": "Callback",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["General"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Asynchronous",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["General"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Synchronous",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["General"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Closure",
+          "time": "Present",
+          "technologies": ["JS"],
+          "tags": ["General"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Toggle Stylesheet",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "https://toggle-jmfcool-org.vercel.app"
+          }
+        },
+        {
+          "title": "Switch User",
+          "time": "Present",
+          "technologies": ["HTML", "CSS", "JS"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        },
+        {
+          "title": "Javascript Framework",
+          "time": "Present",
+          "technologies": ["Templates", "Promises", "Modules"],
+          "button": {
+            "label": "Open project",
+            "href": "#"
+          }
+        }
+      ]
+    }
+  ]
+}
