@@ -630,6 +630,7 @@
           "title": "Closures",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -639,6 +640,7 @@
           "title": "Cookies",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -648,6 +650,7 @@
           "title": "Counter",
           "time": "Present",
           "technologies": ["HTML", "CSS", "React.js"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -657,6 +660,7 @@
           "title": "Stopwatch",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "https://stopwatch-jmfcool-org.vercel.app"
@@ -666,6 +670,7 @@
           "title": "Timer",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -675,6 +680,7 @@
           "title": "XHR",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -684,6 +690,7 @@
           "title": "JSONP",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -713,6 +720,7 @@
           "title": "Autocomplete",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -722,6 +730,7 @@
           "title": "Github",
           "time": "Present",
           "technologies": ["HTML", "CSS", "AngularJS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -731,6 +740,7 @@
           "title": "Todo",
           "time": "Present",
           "technologies": ["HTML", "CSS", "AngularJS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "https://todo-jmfcool-19spe0geg-zigzagfog.vercel.app"
@@ -780,6 +790,7 @@
           "title": "Toggle Stylesheet",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "https://toggle-jmfcool-org.vercel.app"
@@ -789,6 +800,7 @@
           "title": "Switch User",
           "time": "Present",
           "technologies": ["HTML", "CSS", "JS"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
@@ -798,6 +810,7 @@
           "title": "Javascript Framework",
           "time": "Present",
           "technologies": ["Templates", "Promises", "Modules"],
+          "tags": [],
           "button": {
             "label": "Open project",
             "href": "#"
