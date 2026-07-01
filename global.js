@@ -1,40 +1,27 @@
-const portfolioData = {
-  categories: [
-    {
-      name: "Review Sites",
-      slug: "review-sites",
-      items: [
-        {
-          title: "BeautyUser.com",
-          time: "2009",
-          technologies: ["PHP", "MySQL", "CSS"],
-          tags: ["Display", "Search", "Affiliate", "Consumer"],
-          button: { label: "Open project", href: "#" }
-        },
-        {
-          title: "HealthNews.com",
-          time: "2009",
-          technologies: ["PHP", "CSS"],
-          tags: ["Display", "Search", "Affiliate"],
-          button: { label: "Open project", href: "#" }
-        },
-        {
-          title: "CreditReportingForDummies.com",
-          time: "2009",
-          technologies: ["PHP", "MySQL", "CSS", "JS"],
-          tags: ["Display", "Search", "Affiliate"],
-          button: { label: "Open project", href: "#" }
-        }
-      ]
-    },
-    {
-      name: "Micro Sites",
-      slug: "micro-sites",
-      items: [
-        {
-          title: "Jmfcooljs.org",
-          time: "Present",
-          technologies: ["HTML", "CSS", "JS"],
+function initThemeToggle() {
+  const root = document.documentElement;
+  const toggle = document.querySelector("[data-theme-toggle]");
+  if (!toggle) return;
+
+  let theme = root.getAttribute("data-theme") || "dark";
+  root.setAttribute("data-theme", theme);
+
+  const setIcon = () => {
+    toggle.setAttribute("aria-label", `Switch to ${theme === "dark" ? "light" : "dark"} mode`);
+    toggle.innerHTML =
+      theme === "dark"
+        ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>'
+        : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg>';
+  };
+
+  setIcon();
+
+  toggle.addEventListener("click", () => {
+    theme = theme === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", theme);
+    setIcon();
+  });
+}          technologies: ["HTML", "CSS", "JS"],
           tags: ["Organic"],
           button: { label: "Open project", href: "#" }
         },
