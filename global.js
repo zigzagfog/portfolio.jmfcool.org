@@ -332,7 +332,7 @@ const portfolioData = {
           time: "Present",
           technologies: ["SwiftUI", "Kotlin", "JS", "CSS", "HTML"],
           tags: ["App Store", "Google Play", "Web"],
-          button: { label: "Open project", href: "#" }
+          button: { label: "Open project", href: "https://sober-jmfcool-org-ulql.vercel.app" }
         },
         {
           title: "Spell by Jmfcool.com",
