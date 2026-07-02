@@ -84,7 +84,7 @@ const portfolioData = {
           time: "Present",
           technologies: ["HTML", "CSS", "JS"],
           tags: ["Organic", "Search"],
-          button: { label: "Open project", href: "#" }
+          button: { label: "Open project", href: "https://jmfcool-com.vercel.app" }
         },
         {
           title: "MalibuBrightOffer.com",
