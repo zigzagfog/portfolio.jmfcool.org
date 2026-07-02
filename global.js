@@ -534,7 +534,7 @@ const portfolioData = {
           time: "Present",
           technologies: ["HTML", "CSS", "AngularJS"],
           tags: [],
-          button: { label: "Open project", href: "https://todo-jmfcool-19spe0geg-zigzagfog.vercel.app" }
+          button: { label: "Open project", href: "https://toggle-jmfcool-com.vercel.app" }
         },
         {
           title: "Callback",
