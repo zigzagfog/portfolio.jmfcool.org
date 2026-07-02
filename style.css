@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --color-bg: #f4f7fb;
   --color-surface: #ffffff;
   --color-surface-2: #eef3f8;
@@ -15,7 +16,8 @@
   --shadow-menu: 0 18px 40px rgba(0, 0, 0, 0.18);
 }
 
-[data-theme="dark"] {
+:root[data-theme="dark"] {
+  color-scheme: dark;
   --color-bg: #0b0f14;
   --color-surface: #121821;
   --color-surface-2: #18202b;
